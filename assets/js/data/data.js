@@ -1,76 +1,85 @@
-const productos = [
+const db = [
   {
     id: 1,
-    nombre: 'Hamburguesa',
-    precio: 18.00,
-    imagen: './assets/img/hamburger.png',
-    categoria: 'aperitivos',
-    cantidad: 22
+    nombre: 'Audifonos Steren',
+    descripcion: 'Audifonos aro completo',
+    precio: 750.00,
+    imagen: './assets/img/audifonos1.jpg',
+    categoria: 'Tech-Zone',
+    cantidad: 10
   },
   {
     id: 2,
-    nombre: 'Papas Fritas',
-    precio: 12.00,
-    imagen: './assets/img/french-fries.png',
-    categoria: 'aperitivos',
-    cantidad: 18
+    nombre: 'Audifonos Beats',
+    descripcion: 'Audifonos Soundtrack',
+    precio: 1200.00,
+    imagen: './assets/img/audifonos2.jpg',
+    categoria: 'Tech-Zone',
+    cantidad: 15
   },
   {
     id: 3,
-    nombre: 'Hot-Dog',
-    precio: 16.00,
-    imagen: './assets/img/hot_dog.png',
-    categoria: 'aperitivos',
+    nombre: 'Audifonos Alter',
+    descripcion: 'Audifonos Escalrecedor de sonidos',
+    precio: 750.00,
+    imagen: './assets/img/audifonos3.jpg',
+    categoria: 'Tech-Zone',
     cantidad: 13
   },
   {
     id: 4,
-    nombre: 'Sandwich',
-    precio: 15.00,
-    imagen: './assets/img/sandwich.png',
-    categoria: 'aperitivos',
+    nombre: 'Audifonos Duplex',
+    descripcion: 'Audifonos Filling Sound',
+    precio: 1500.00,
+    imagen: './assets/img/audifonos4.jpg',
+    categoria: 'Tech-Zone',
     cantidad: 16
   },
   {
     id: 5,
-    nombre: 'Donas',
-    precio: 10.00,
-    imagen: './assets/img/donut.png',
-    categoria: 'aperitivos',
+    nombre: 'Audifonos Premium',
+    descripcion: 'Audifonos Optative Sound',
+    precio: 3000.00,
+    imagen: './assets/img/audifonos5.jpg',
+    categoria: 'Tech-Zone',
     cantidad: 24
   },
   {
     id: 6,
-    nombre: 'Nuguets',
-    precio: 14.00,
-    imagen: './assets/img/chicken_leg.png',
-    categoria: 'aperitivos',
+    nombre: 'Audifonos Extra Bass',
+    descripcion: 'Audifonos Optative Sound',
+    precio: 1750.00,
+    imagen: './assets/img/audifonos6.jpg',
+    categoria: 'Tech-Zone',
     cantidad: 20
   },
   {
     id: 7,
-    nombre: 'Soda Lata',
-    precio: 13.00,
-    imagen: './assets/img/soda.png',
-    categoria: 'bebidas',
+    nombre: 'Audifonos Sport',
+    descripcion: 'Audifonos Sport Bluetooth',
+    precio: 900.00,
+    imagen: './assets/img/audifonos7.webp',
+    categoria: 'Tech-Zone',
     cantidad: 14
   },
   {
     id: 8,
-    nombre: 'Soda Vaso',
-    precio: 15.00,
-    imagen: './assets/img/soda_cup.png',
-    categoria: 'bebidas',
+    nombre: 'Audifonos Gamer',
+    descripcion: 'Audifonos Semiprofessional',
+    precio: 4250.00,
+    imagen: './assets/img/audifonos8.jpg',
+    categoria: 'Tech-Zone',
     cantidad: 18
   },
   {
     id: 9,
-    nombre: 'Jugo',
-    precio: 11.00,
-    imagen: './assets/img/glass.png',
-    categoria: 'bebidas',
+    nombre: 'Audifonos Gamer',
+    descripcion: 'Audifonos Professional',
+    precio: 6250.00,
+    imagen: './assets/img/audifonos9.jpg',
+    categoria: 'Tech-Zone',
     cantidad: 15
   }
 ]
 
-export default productos
+export default db
