@@ -284,7 +284,11 @@ a {
 .home__description {
   font-size: var(--normal-text);
 }
-
+.home__img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*========== PRODUCT CONTENT ==========*/
 .products__title {
   font-size: var(--h2-text);
@@ -305,13 +309,17 @@ a {
   height: 250px;
   background-color: #fff;
   border-radius: 10px 10px 0 0;
+  display: flex;
 }
 
 .products__img img {
-  width: 65%;
-  height: 100%;
+  max-width: 70%;
+  max-height: 100%;
+  height: auto;
   display: block;
-  margin: 0 auto;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .products__stock {
@@ -592,7 +600,7 @@ a {
   .products__list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
+    gap: 2.5rem;
   }
 
   .about__container {
