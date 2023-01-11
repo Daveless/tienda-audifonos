@@ -573,12 +573,12 @@ a {
 /*========== MEDIA QUERIES ==========*/
 
 @media (min-width: 0px) {
-  .cart {
-    width: 400px;
+  .cart{
+    width: 100%;
   }
   .products__item{
-    width: 90%;
-    margin: 2rem 5% 2rem 5%;
+    width: 100%;
+    margin: 2rem auto ;
   }
 }
 
