@@ -571,11 +571,20 @@ a {
   6. BREAKPOINTS
 ==============================*/
 /*========== MEDIA QUERIES ==========*/
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+  .products__item{
+    width: 95%;
+    margin: 2rem auto;
+  }
+}
 
 @media (min-width: 400px) {
   .cart {
     width: 400px;
+  }
+  .products__item{
+    width: 90%;
+    margin: 2rem auto;
   }
 }
 
@@ -603,6 +612,10 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2.5rem;
+  }
+  .products__item{
+    width: 100%;
+    margin: auto;
   }
 
   .about__container {
