@@ -5,9 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carrito de Compras</title>
+  <title>Tienda de audifonos</title>
   <!--=============== FAVICON ===============-->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
   <!--=============== GOOGLE FONTS ===============-->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -26,7 +29,7 @@
   <!--=============== HEADER ===============-->
   <header class="header">
     <nav class="navbar grid--container">
-      <a href="#" class="navbar__logo">
+      <a href="#home_section" class="navbar__logo">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-headphones" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
           <rect x="4" y="13" rx="2" width="5" height="7" />
@@ -43,17 +46,17 @@
 
         <ul class="navbar__list">
           <li class="navbar__item">
-            <a href="#" class="navbar__link">
+            <a href="#home_section" class="navbar__link">
               <span>Inicio</span>
             </a>
           </li>
           <li class="navbar__item">
-            <a href="#" class="navbar__link">
+            <a href="#products_section" class="navbar__link">
               <span>Productos</span>
             </a>
           </li>
           <li class="navbar__item">
-            <a href="#" class="navbar__link">
+            <a href="#about_us" class="navbar__link">
               <span>Nosotros</span>
             </a>
           </li>
@@ -160,7 +163,7 @@
 
   <!--=============== MAIN ===============-->
   <main class="main">
-    <section class="home section">
+    <section id="home_section" class="home section">
       <div class="home__container grid--container">
         <div class="home__content">
           <h1 class="home__title">Tienda de audífonos</h1>
@@ -174,10 +177,10 @@
       </div>
     </section>
 
-    <section class="products section">
+    <section id="products_section" class="products section">
       <div class="products__container grid--container">
         <div class="products__content">
-          <h2 class="products__title">Productos</h2>
+          <h2  class="products__title">Productos</h2>
           <p class="products__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolorem
             excepturi quaerat repellat quidem soluta quos est, autem illo hic fugiat repudiandae asperiores pariatur
             nemo numquam obcaecati? Architecto, atque accusantium!</p>
@@ -209,13 +212,13 @@
       </div>
     </section>
 
-    <section class="about section">
+    <section id="about_us" class="about section">
       <div class="about__container grid--container">
         <div class="about__content">
           <h2 class="about__title">Nosotros</h2>
           <p class="about__desciption">
             Este proyecto es realizado por el grupo 5, quienes lo conformamos: 
-            
+            <br />
             <span>Juan Antonio Ortiz Gutierrez</span><br>
             <span>David alejandro rojas</span><br>
             <span>Esmir roque castellano</span><br>
